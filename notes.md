@@ -24,14 +24,26 @@ Revolutions of knowledge in Earth's sciences:
 Causes that drive climate change:
 
 1. Tectonic processes (~Ma)
-2. Orbital changes (~100 ka) --> **Milankovitch orbital cycles**
+2. Orbital changes (~100 ka) --> **Milankovitch orbital cycles**: resulting wave after modulation of the cycles below
 	1. changes in eccentricity $ 0 < \epsilon < 0.06$, two oscillations:
 		- 413 ka
 		- 100 ka
-	2. changes in obliquity (axial tilt) 22.1°-24.5° (today 23.5°): 41 ka, enhances seasonal variations
-	3. precession
+	2. changes in obliquity (axial tilt) 22.1°-24.5° (today 23.5°), enhances or weakens seasonal variations:
+		- 41 ka
+	3. precession of the axis: gives rise to **precession of the equinoxes** combined with the precession of the ellipse
+		- stronger cycle at 23 ka
+		- weaker cycle at 19 ka
 3. Solar strength changes (slowly increases, but cycles exist)
 4. Antropogenic forcing
+
+![Climate variance ](file:///home/jacopo/Documents/UniBo/Notes/Composite-power-spectrum-of-climate-variability-over-the-last-10-Myr-after-Ghil-2002b.png  "Climate variance")
+Source: [Quante, M.. (2010). The Changing Climate: Past, Present, Future. 10.1007/978-3-540-92160-8_2.](https://www.researchgate.net/publication/226931555_The_Changing_Climate_Past_Present_Future)
+
+### Milankovitch theory
+Ice builds up in the northern emisphere when insolation is small which happens if:
+
+1. Axis tilt is small
+2. Summer is at the aphelion
 
 ### Climate **response**
 Effects of climate forcing
@@ -39,9 +51,6 @@ Effects of climate forcing
 ### Climate variability modes
 1. Forced mode: response to external forcing
 2. Free mode due to internal variabilities and feedbacks
-
-![Climate variance ](file:///home/jacopo/Documents/UniBo/Notes/Composite-power-spectrum-of-climate-variability-over-the-last-10-Myr-after-Ghil-2002b.png  "Climate variance")
-Source: [Quante, M.. (2010). The Changing Climate: Past, Present, Future. 10.1007/978-3-540-92160-8_2.](https://www.researchgate.net/publication/226931555_The_Changing_Climate_Past_Present_Future)
 
 ## Proxies for paloclimate
 
@@ -62,8 +71,8 @@ Proxies should be **continuous**
 	1. discontinuity in growth: drought
 	2. Mg, Ca, Sr proportion: aridity
 5. Pollen (from lake or deep sea deposits): 
-	1. arboreal/non-arboreal ratio --> warm/cool phase
-	2. pine/oak ratio --> cool/warm phase
+	1. arboreal/non-arboreal ratio: warm/cool phase
+	2. pine/oak ratio: cool/warm phase
 6. Diatoms (paleolimnology): information on moisture level
 7. Tree rings
 	1. earlywood/latewood couplet to count years
@@ -79,7 +88,7 @@ Discontinuous proxies: moraine (glacial debris).
 ## Period, epochs and chronozones
 Quaternary: 2.58My:
 
-1. Paleocene (early, middle, late <-- last interglacial): 2.58 Ma-11650 a BP
+1. Paleocene (early, middle, late: last interglacial): 2.58 Ma-11650 a BP
 2.  Holocene: current geological epoch, 11650 a BP
 	- Preboreal (10 ka–9 ka BP)
 	- Boreal (9 ka–8 ka BP),
@@ -100,6 +109,37 @@ A timescale derived from benthic isotopic sequences.
 	- interstadials
 	
 ![LR04 benthic records ](file:///home/jacopo/Documents/UniBo/Notes/LR04-benthic-records.png  "LR04")
+
+##Monsoons
+
+Monsoons are weather systems driven by seasonal changes in solar radiation.
+Land heats up and cools down at higher rate than the ocean, resulting in temperature and pressure gradients.
+
+There are three strong monsoons on Earth:
+
+1. Asian monsoon (India, south east Asia)
+2. North African monsoon
+3. South American monsoon
+
+There are two phases of the monsoon:
+
+1. summer monsoon: wet
+2. winter monsoon: dry
+
+An higher insolation due to orbital changes (precession 23 ka cycle in particular)increases the strength of the summer monsoon: land heats up more --> atmosphere upwards motion is greater --> more inflow of moist ocean air --> more rainfall on land.
+
+### Proxies of stronger monsoons in the past
+
+North African monsoon:
+
+1. Dust deposition: lower concentration on the Mediterranean basin (more moist soil gives away less dust to the wind).
+2. Diatoms: windblown from wet Sahara lakes to the Atlantic when they are empty.
+3. Sapropel: black muddy deposits on the Mediterranean basin when Nile disharge is higher: stronger monsoon --> low-salinity lid --> decreased deep waters circulation --> depleted oxygen concentration (anoxic water) --> sea life die-off
+
+Asian monsoon:
+
+1. Caves: $\delta^{18}O$ changes in stalagmites
+2. Methane in ice: most methane is generated in wet tropical environments (bogs)
 
 ## Glossary
 
