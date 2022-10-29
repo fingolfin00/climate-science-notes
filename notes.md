@@ -36,7 +36,7 @@ Causes that drive climate change:
 3. Solar strength changes (slowly increases, but cycles exist)
 4. Antropogenic forcing
 
-![Climate variance ](file:///home/jacopo/Documents/UniBo/Notes/Composite-power-spectrum-of-climate-variability-over-the-last-10-Myr-after-Ghil-2002b.png  "Climate variance")
+![Climate variance ](Composite-power-spectrum-of-climate-variability-over-the-last-10-Myr-after-Ghil-2002b.png  "Climate variance")
 Source: [Quante, M.. (2010). The Changing Climate: Past, Present, Future. 10.1007/978-3-540-92160-8_2.](https://www.researchgate.net/publication/226931555_The_Changing_Climate_Past_Present_Future)
 
 ### Milankovitch theory
@@ -84,6 +84,7 @@ Discontinuous proxies: moraine (glacial debris).
 1. $^{14}C$: for the last 40 ka
 2. OSL (Optically Stimulated Luminescence): 0-300 ka BP
 3. ESR (Electron Spin Resonance): several 100 ka BP
+4. uranium-thorium (U-Th): [up to 500 ka BP](https://isobarscience.com/u-th/application/)
 
 ## Period, epochs and chronozones
 Quaternary: 2.58My:
@@ -96,7 +97,7 @@ Quaternary: 2.58My:
 	- Subboreal (5 ka–2.5 ka BP) and
 	- Subatlantic (2.5 ka BP–present).
 	
-![Holocene and late Pleistocene correlation table ](file:///home/jacopo/Documents/UniBo/Notes/late-pleistocene-holocene-correlation-table.png  "Correlation table")
+![Holocene and late Pleistocene correlation table ](late-pleistocene-holocene-correlation-table.png  "Correlation table")
 
 ### Marine isotope stages timescale
 A timescale derived from benthic isotopic sequences.
@@ -108,7 +109,20 @@ A timescale derived from benthic isotopic sequences.
 	- stadials
 	- interstadials
 	
-![LR04 benthic records ](file:///home/jacopo/Documents/UniBo/Notes/LR04-benthic-records.png  "LR04")
+![LR04 benthic records ](LR04-benthic-records.png  "LR04")
+
+## Last interglacial (129-116 ka)
+
+Proxies:
+
+1. Coral reef:
+2. Marine terraces: formed by erosion resistant corals
+3. Tidal notches
+4. Shell deposits
+
+Main dating technique: uranium-thorium (U-Th) dating --> confirms $\delta^{18}O$ data
+
+Dansgaard-Oeschger (D-O) cycles: sub-Milankovitch
 
 ##Monsoons
 
