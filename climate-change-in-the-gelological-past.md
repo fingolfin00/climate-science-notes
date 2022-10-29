@@ -124,7 +124,7 @@ Main dating technique: uranium-thorium (U-Th) dating --> confirms $\delta^{18}O$
 
 Dansgaard-Oeschger (D-O) cycles: sub-Milankovitch
 
-##Monsoons
+## Monsoons
 
 Monsoons are weather systems driven by seasonal changes in solar radiation.
 Land heats up and cools down at higher rate than the ocean, resulting in temperature and pressure gradients.
