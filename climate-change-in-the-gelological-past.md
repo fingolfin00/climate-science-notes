@@ -97,9 +97,9 @@ Quaternary: 2.58My:
 	- Subboreal (5 ka–2.5 ka BP) and
 	- Subatlantic (2.5 ka BP–present).
 	
-![Holocene and late Pleistocene correlation table ](pictures/climate-change-in-the-geological-past/late-pleistocene-holocene-correlation-table.png  "Correlation table")
+![Holocene and late Pleistocene correlation table](pictures/climate-change-in-the-geological-past/late-pleistocene-holocene-correlation-table.png  "Correlation table")
 
-### Marine isotope stages timescale
+### Marine isotope stages (MIS) timescale
 A timescale derived from benthic isotopic sequences.
 
 1. stages:
@@ -108,21 +108,51 @@ A timescale derived from benthic isotopic sequences.
 2. sub-stages:
 	- stadials
 	- interstadials
-	
-![LR04 benthic records ](pictures/climate-change-in-the-geological-past/LR04-benthic-records.png  "LR04")
+
+![LR04 benthic records](pictures/climate-change-in-the-geological-past/LR04-benthic-records.png  "LR04")
 
 ## Last interglacial (129-116 ka)
 
+MIS5e
 Proxies:
 
 1. Coral reef:
 2. Marine terraces: formed by erosion resistant corals
 3. Tidal notches
 4. Shell deposits
+5. Deposit in the Po Plain
+6. Pollen records (vegetation response to climate change is a bit delayed)--> short cool period at 121 ka
 
 Main dating technique: uranium-thorium (U-Th) dating --> confirms $\delta^{18}O$ data
 
-Dansgaard-Oeschger (D-O) cycles: sub-Milankovitch
+## Last glacial (115-11.6 ka)
+
+MIS2, MIS3, MIS4, MIS5[a-d]
+
+![MIS time scale](pictures/climate-change-in-the-geological-past/MIS.png  "MIS")
+
+### Dansgaard-Oeschger (D-O) cycles
+
+Sub-Milankovitch cycles of abrupt warming (decades) follwed by slower cooling (centuries/millennia) in the last glacial.
+
+13 D-O cycles between 45-11.6 ka
+Average period: 1470 years
+
+Proxies:
+
+1. Greenland ice cores --> $\delta^{18}O$
+2. Pollen (herbs/trees --> cold/warm)
+3. Soils (rich/poor in clay and carbon --> cold/warm)
+4. Stalagmites
+5. Marine/fluvial terraces --> confirm stepped sea level fall and cooling
+6. Ice-rafted debris (IRD) recorded in sea floor deposits --> ice rafts --> Heinrich cycles (abrupt warming)
+	- minor events: volcanic rocks and sandstone (1500 year period)
+	- major events: limestone and other rocks (multiples of 1500 year period)
+	![Heinrich events](pictures/climate-change-in-the-geological-past/heinrich-events.png  "Heinrich")
+7. Plankton assemblages during LGM --> little cooling at the tropics
+8. Glacial loess <-- deposited downwind of large ice sheets  <-- silt transported (and generated) by rivers <-- large erosion by ice generates silt 
+	- Loess --> glacial periods
+	- Paleosols --> interglacials/interstadials
 
 ## Monsoons
 
@@ -160,3 +190,4 @@ Asian monsoon:
 - Benthic Foraminifera: "Benthic foraminifera are protozoa, which evolved during the Cambrian and inhabited all possible marine environments from shallow water intertidal regions to deep trenches."  Source: [R. Saraswat, R. Nigam, in Encyclopedia of Quaternary Science (Second Edition), 2013](https://www.sciencedirect.com/science/article/pii/B978044453643300279X)
 - Diatoms: unicellular algae sensitive to water salinity
 - Response time: time taken to fully respond to a change
+- Loess: sediment formed by deposition of dust (mainly made of silt) transported by wind
