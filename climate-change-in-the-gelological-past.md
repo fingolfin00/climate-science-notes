@@ -8,6 +8,7 @@ Main sources:
 **Earth  system** science as inter- and multidisciplinary approach to climate science.
 
 ### Components of climate system
+
 1. **O**cean
 2. **L**and surface
 3. **I**ce
@@ -21,6 +22,7 @@ Revolutions of knowledge in Earth's sciences:
 3. **Climate change**: now (claimed)
 
 ### Climate **forcing**
+
 Causes that drive climate change:
 
 1. Tectonic processes (~Ma)
@@ -30,7 +32,7 @@ Causes that drive climate change:
 		- 100 ka
 	2. changes in obliquity (axial tilt) 22.1°-24.5° (today 23.5°), enhances or weakens seasonal variations:
 		- 41 ka
-	3. precession of the axis: gives rise to **precession of the equinoxes** combined with the precession of the ellipse
+	3. **precession of the equinoxes**: combination of precession of the axis (wobbling motion, 25.7 ka) and precession of the ellipse (slow turning of ellipse axes over time)
 		- stronger cycle at 23 ka
 		- weaker cycle at 19 ka
 3. Solar strength changes (slowly increases, but cycles exist)
@@ -41,26 +43,30 @@ Causes that drive climate change:
 Source: [Quante, M.. (2010). The Changing Climate: Past, Present, Future. 10.1007/978-3-540-92160-8_2.](https://www.researchgate.net/publication/226931555_The_Changing_Climate_Past_Present_Future)
 
 ### Milankovitch theory
+
 Ice builds up in the northern emisphere when insolation is small which happens if:
 
 1. Axis tilt is small
 2. Summer is at the aphelion
 
 ### Climate **response**
+
 Effects of climate forcing
 
 ### Climate variability modes
+
 1. Forced mode: response to external forcing
 2. Free mode due to internal variabilities and feedbacks
 
-## Proxies for paloclimate
+## Proxies for paleoclimate
 
 Proxies should be **continuous**
 
 1. Geomorphology
+	1. fluvial terraces
+	2. wave-cut terraces
 2. Stratigraphy: source-to-sink system (erosion --> transfer --> deposition)
-	1. Lake deposits
-		- wave-cut terraces
+	1. Lake deposits	
 		- varves: stratigraphic couplets of clay (winter) - sand (summer) deposits 
 	2. Deep marine environment
 3. Paleontology: isotope composition ratio in pelagic foraminiferal deposits reflects past temperature of marine water (Cesare Emiliani, founder of paleoceanography)
@@ -78,6 +84,7 @@ Proxies should be **continuous**
 7. Tree rings
 	1. earlywood/latewood couplet to count years
 	2. information on precipitation, drought, forest fires, pests
+8. Ice cores
 	
 Discontinuous proxies: moraine (glacial debris).
 
@@ -90,15 +97,15 @@ Discontinuous proxies: moraine (glacial debris).
 
 ## Period, epochs and chronozones
 
-Quaternary: 2.58My:
+**Quaternary**: started 2.58 Ma BP
 
 1. Paleocene (early, middle, late: last interglacial): 2.58 Ma-11650 a BP
 2.  Holocene: current geological epoch, 11650 a BP
-	- Preboreal (10 ka–9 ka BP)
-	- Boreal (9 ka–8 ka BP),
-	- Atlantic (8 ka–5 ka BP),
-	- Subboreal (5 ka–2.5 ka BP) and
-	- Subatlantic (2.5 ka BP–present).
+	1.Preboreal (10 ka–9 ka BP)
+	2. Boreal (9 ka–8 ka BP),
+	3. Atlantic (8 ka–5 ka BP),
+	4. Subboreal (5 ka–2.5 ka BP) and
+	5. Subatlantic (2.5 ka BP–present).
 	
 ![Holocene and late Pleistocene correlation table](pictures/climate-change-in-the-geological-past/late-pleistocene-holocene-correlation-table.png  "Correlation table")
 
@@ -110,17 +117,35 @@ A timescale derived from benthic isotopic sequences.
 	- even numbers: glacial peaks
 	- odd numbers: interglacial troughs
 2. sub-stages:
-	- stadials
-	- interstadials
+	- stadials: cold phase
+	- interstadials: warm phase
 
 ![LR04 benthic records](pictures/climate-change-in-the-geological-past/LR04-benthic-records.png  "LR04")
 
+## Glacial and interglacial periods
+
+Atmospheric $CO_2$ records (from Antarctica ice sheet) and ice cover (from marine $\delta^{18}O$ records) oscillate at the same time --> $CO_2$ (from atmosphere, land vegetation and ocean surface) goes in the deep ocean during glacial periods
+
+### Carbon transfer
+
+$\delta^{13}C$ is a proxy for carbon origin --> lower in deep ocean foraminifera records during glacial times:
+
+1. organic $C$ --> $\delta^{13}C < 0 \approx -25‰$ --> rich in $^{12}C$
+2. inorganic $C$ --> $\delta^{13}C \approx 0‰$
+
+Possible reasons foo increased carbon transfer to the deep ocean during glacial periods:
+
+1. reduced $CO_2$ solubility in colder waters
+2. greater biological pumping of carbon from surface to deep waters
+3. changes in deep-ocean circulation
+
 ## Last interglacial (129 - 116 ka)
 
-MIS5e
+Marine isotope stage: MIS5e
+
 Proxies:
 
-1. Coral reef:
+1. Coral reef elevation on land
 2. Marine terraces: formed by erosion resistant corals
 3. Tidal notches
 4. Shell deposits
@@ -131,25 +156,28 @@ Main dating technique: uranium-thorium (U-Th) dating --> confirms $\delta^{18}O$
 
 ## Last glacial (115 - 11.6 ka)
 
-MIS2, MIS3, MIS4, MIS5[a-d]
+Last glacial maximum about 20 ka BP
+
+Marine isotope stages: MIS2, MIS3, MIS4, MIS5[a-d]
 
 ![MIS time scale](pictures/climate-change-in-the-geological-past/MIS.png  "MIS")
 
-### Dansgaard-Oeschger (D-O) cycles
+### Millennial oscillations
 
-Sub-Milankovitch cycles of abrupt warming (decades) follwed by slower cooling (centuries/millennia) in the last glacial.
+Possible reasons:
 
-13 D-O cycles between 45-11.6 ka
-Average period: 1470 years
+1. Sun activity: $^{14}C$ and counting tree rings discrepancy --> solar wind cycles of periods non compatible with D-O events (420, 2100 years) --> non-cyclic increase in solar activity
+2. Northern ice sheets instability --> more ice rafting events --> large North Atlantic cooling --> ICTZ moves south --> warmer Antarctica
+3. Reduced interhemispheric exchanges of heat
 
 Proxies:
 
-1. Greenland ice cores --> $\delta^{18}O$
+1. Greenland ice cores, weaker and reversed (warming) in Antarctica --> $\delta^{18}O$, dust
 2. Pollen (herbs/trees --> cold/warm)
 3. Soils (rich/poor in clay and carbon --> cold/warm)
 4. Stalagmites
 5. Marine/fluvial terraces --> confirm stepped sea level fall and cooling
-6. Ice-rafted debris (IRD) recorded in sea floor deposits --> ice rafts --> Heinrich cycles (abrupt warming)
+6. Ice-rafted debris (IRD) recorded in sea floor deposits --> ice rafts --> **Heinrich cycles** (abrupt warming)
 	- minor events: volcanic rocks and sandstone (1500 year period)
 	- major events: limestone and other rocks (multiples of 1500 year period)
 	![Heinrich events](pictures/climate-change-in-the-geological-past/heinrich-events.png  "Heinrich")
@@ -157,6 +185,18 @@ Proxies:
 8. Glacial loess <-- deposited downwind of large ice sheets  <-- silt transported (and generated) by rivers <-- large erosion by ice generates silt 
 	- Loess --> glacial periods
 	- Paleosols --> interglacials/interstadials
+
+#### Dansgaard-Oeschger (D-O) cycles
+
+Sub-Milankovitch cycles of abrupt warming (decades) followed by slower cooling (centuries/millennia) in the last glacial.
+
+13 D-O cycles between 45-11.6 ka, average period: 1470 years
+
+They could be **red noise** (longer oscillations are larger in amplitude)
+	
+#### Bond cycles
+
+Longer frequency, bundle D-O cycles, correlated to Heinrich events
 
 ## Last deglaciation
 
@@ -166,12 +206,15 @@ Termination I: last transition between glacial/interglacial --> analog for anthr
 
 ### Late glacial
 
-Bølling-Allerød: D-O cycle
+MWP: Melt Water Pulse
+
+Bølling-Allerød: double-peaked warm interstadial
 
 1. Bølling transition --> MWP-1A
-2. Older Dryas
-3. Allerød
-2. Younger Dryas
+2. Older Dryas --> cold spell during Bølling-Allerød in some regions
+3. Allerød --> warm and moist interstadial
+4. Younger Dryas --> stadial cold spell
+5. Termination I --> MWP-1B
 
 ![Bølling transition in delta O18](pictures/climate-change-in-the-geological-past/bolling-allerod-dryas.png "Bølling")
 
@@ -179,9 +222,8 @@ Bølling-Allerød: D-O cycle
 
 Enormous floods due to rapid deflow of glacial lakes near shrinking ice sheets.
 
-1. Lake Missoula in Pacific North America (20-14 ka). Proxies:
-	- Channeled scabland
-2. Lake Agassiz and lake Ojibway outflow <-- 8.2 event
+1. Lake Missoula in Pacific North America (20-14 ka). Proxy: Channeled scabland
+2. Lake Agassiz and lake Ojibway outflow <-- 8.2 ka event
 
 ### Younger Dryas (12.9 - 11.7 ka)
 
@@ -220,6 +262,7 @@ Stratigraphic proxies in the Po Plain
 ## Monsoons
 
 Monsoons are weather systems driven by seasonal changes in solar radiation.
+
 Land heats up and cools down at higher rate than the ocean, resulting in temperature and pressure gradients.
 
 There are three strong monsoons on Earth:
@@ -233,7 +276,7 @@ There are two phases of the monsoon:
 1. summer monsoon: wet
 2. winter monsoon: dry
 
-An higher insolation due to orbital changes (precession 23 ka cycle in particular)increases the strength of the summer monsoon: land heats up more --> atmosphere upwards motion is greater --> more inflow of moist ocean air --> more rainfall on land.
+An higher insolation due to orbital changes (precession 23 ka cycle in particular) increases the strength of the summer monsoon: land heats up more --> atmosphere upwards motion is greater --> more inflow of moist ocean air --> more rainfall on land.
 
 ### Proxies of stronger monsoons in the past
 
@@ -281,7 +324,7 @@ Deglaciation with its Rapid Climate Change (RCC) events had effect on human evol
 
 A proposed geological epoch that marks the start of the human impact at the geological level.
 
-From the **Great Acceleration** (1950 CE), but other dates have been proposed.
+From the **Great Acceleration** (1950 CE), but other dates have been proposed (Orbis spike in 1610 CE --> Columbian exchange).
 
 New technologies or discoveries that altered the environment:
 
