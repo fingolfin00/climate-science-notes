@@ -1,4 +1,5 @@
-# Climate change in the geological past - Notes
+# Climate change in the geological past
+# Module 1: Quaternary climate change
 
 ## Climate
 
@@ -150,7 +151,7 @@ Proxies:
 3. Tidal notches
 4. Shell deposits
 5. Deposit in the Po Plain
-6. Pollen records (vegetation response to climate change is a bit delayed)--> short cool period at 121 ka
+6. Pollen records (vegetation response to climate change is a bit delayed)--> short cool period at 121 ka --> evident in higher resolution $\delta^{18}O$
 
 Main dating technique: uranium-thorium (U-Th) dating --> confirms $\delta^{18}O$ data
 
