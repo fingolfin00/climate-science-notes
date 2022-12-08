@@ -66,4 +66,49 @@ Sinks from exogenic:
 
 Oceanic **photic** zone: 100 m.
 
-Bioprocesses sequester $CO_{2}$ and other nutrients into ocean deeper layers. Nutrients are upwelled and $CO_{2}$ is accumulated in sediments.
+Bioprocesses mainly done by **phytoplanton** sequester $CO_{2}$ and other nutrients into ocean deeper layers. Nutrients are upwelled and $CO_{2}$ is accumulated in sediments.
+
+Yearly cycles in $CO_{2}$ concentration are due to vegetation season cycles in the northern emisphere where most of land plants are located --> but no land plat until Devonian.
+
+Mass extinctions and new taxa creation had effects on climate.
+
+## Proxies
+
+### Biotic proxies
+
+1. **Pollen** --> great for distinguish between interglacial and glacial periods
+2. **Plankton** (shells) --> great sequestrors of carbon
+
+### Geological and geochemical proxies
+
+#### Terrigenous sediments
+
+1. Source area --> engines of erosion:
+	* weathering
+	* tectonic perturbations
+2. Transport area --> engines:
+	* water
+	* wind
+	* ice
+3. Sink or deposition area --> sedimentary basin
+
+Ice-rafted debris: dropstones trasported by ice and then dropped by icebergs typical of glacial periods.
+
+Fluvial transport --> 19000 Mt/year, mostly from south-east Asia river systems (Brahmaputra, Ganges, Indus, Chang Jiang, Mekong) and other big rivers (Colorado, Amazon, Mississipi, Orinoco, Danube)
+
+1. Mechanical
+2. Chemical (dominant in St. Lawrence, Lena, Yenisei, Dienpr, Ob)
+
+Most sedimentation happens near-shore in particular near river mouths. Deep ocean sedimentation rates are close to zero.
+
+## Weathering
+
+### Chemical weathering
+
+Ions are removed from rocks and transported away.
+
+1. Dissolution --> carbonate and evaporite
+2. Hydrolysis --> water is chemically added to rocks
+	* **Laterite** --> proxy for tropical paleoclimate
+
+Chemical weathering provides a negative feedback to adding/removing $CO_{2}$ from the atmosphere.
