@@ -28,7 +28,7 @@ Causes that drive climate change:
 
 1. Tectonic processes (~Ma)
 2. Orbital changes (~100 ka) --> **Milankovitch orbital cycles**: resulting wave after modulation of the cycles below
-	1. changes in eccentricity $ 0 < \epsilon < 0.06$, two oscillations:
+	1. changes in eccentricity $0 < \epsilon < 0.06$, two oscillations:
 		- 413 ka
 		- 100 ka
 	2. changes in obliquity (axial tilt) 22.1°-24.5° (today 23.5°), enhances or weakens seasonal variations:
