@@ -100,7 +100,8 @@ $F_{RAD} - F_{SH} - F_{LH} - F_{G} - F_{H} = 0$
 ## Natural variability
 
 **Teleconnections**: anomalies or "covariation of remote regional climates either contemporaneously or at nonzero lag/lead times" (Vasubandhu Misra, in Regionalizing Global Climate Variations, 2020 via [ScienceDirect](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/teleconnection)).  
-Technique to seperate the preferred modes of variation:
+
+Technique to separate the preferred modes of variation:
 1. Empirical Orthogonal Functions (**EOF**), aka Principal Component Analysis (PCA): "a field is partitioned into mathematically orthogonal (independent) modes which sometime may be interpreted as atmospheric and oceanographic modes ("structures")" ([NCAR](https://climatedataguide.ucar.edu/climate-tools/empirical-orthogonal-function-eof-analysis-and-rotated-eof-analysis) by Dennis Shea)
 
 ### El Ni&#241;o and Southern Oscillation (ENSO)
@@ -228,7 +229,25 @@ Solutions found with perturbations.
 
 ### Dynamics
 
-Rigid lid approximation
+#### Homogenous flow
+
+$$H(x,y) = H_0 - h(x,y) + \eta (x,y,t)$$
+
+Poincar&#233; modes  
+
+##### Approximations
+
+1. No rotation
+2. Rigid lid approximation
+3. Beta-plane
+
+##### Velocity equations
+
+1. ${\partial u \over \partial t} = -u {\partial u \over \partial x} - v {\partial u \over \partial y} + fv$
+2. ${\partial u \over \partial t} = -u {\partial v \over \partial x} - v {\partial v \over \partial y} - fu$
+3. ${\partial u \over \partial x} + {\partial v \over \partial y} = 0$
+
+##### Vorticity and divergence equations
 
 1. (Vertical component of) **vorticity**: $\zeta = {\partial v \over \partial x} - {\partial u \over \partial y}$ $\leftarrow$ 3D vorticity $= \nabla \times \mathbf{v}$
     1. **Barotropic equation**: ${\partial \zeta \over \partial t} = -u {\partial \zeta \over \partial x} -v {\partial \zeta \over \partial y} -\beta v$
@@ -250,4 +269,98 @@ Solutions found by linearizing the barotropic equation around the basic state $U
 
 ## Processes
 
+### Radiation
 
+A layered atmosphere is considered.
+
+#### Solar radiation spectra
+1. Black body $\rightarrow$ **Lambert's law**:
+    1. Absorption: $dI = -Ik \rho dz$ $\rightarrow$ $\tau = {I \over I_0} = e^{-\chi}$
+        1. Optical depth: $\chi = \int k \rho dz$
+        2. Fractional trasmission coefficient: $\tau$
+    2. Emission: $dI = B(T)k \rho dz$ $\rightarrow$ Stefan-Boltzmann law: $\pi B(T) = \epsilon \sigma T^4$ ($\epsilon$: emissivity)
+2. Schwartzchild's equation (fluxes): ${1 \over \rho} {dI \over dz} = -k (I-B(T))$
+3. Heating rate: ${\partial T \over \partial t} = - {1 \over \rho C_p} {\partial \over \partial z} \left( F^{\uparrow} - F^{\downarrow} \right)$
+
+![Solar radiation spectra](pictures/climate-models/solar_spectra.png)
+
+### Moisture
+
+#### Quantities
+
+1. Mixing ratio:
+2. Specific humidity:
+3. Relative humidity:
+
+#### Moist adiabatic lapse rate
+
+#### Precipitation and clouds
+
+### Surface processes
+
+#### Richardson number
+
+1. $R_i > {1 \over 4}$: stable, laminar
+2. $R_i > 0$: stable, turbulent
+3. $R_i < 0$: unstable
+
+#### Monin-Obukhov length
+
+Ratio between mechanical and buoyancy production (power?).
+
+### Ocean dynamics
+
+1. **Salinity**: new state variable
+2. Air-sea interections by exchange of:
+    1. momentum
+    2. heat
+
+### Sea ice
+
+### Rivers
+
+## Numerical methods
+
+### Finite differences
+
+#### Schemes
+
+1. Two-level
+    1. Euler (forward)
+    2. Backward
+    3. Trapezoidal
+    4. Matsuno
+2. Three-level
+    1. Leapfrog
+    2. Adams-Bashfort
+    3. General
+
+#### Stability
+
+Von Neumann stability parameter for wave solutions.
+
+$$\lambda = {1 + i \alpha p \over 1 - i \beta p}$$
+
+#### Advection equation
+
+##### Linear
+
+$${\partial u_j \over \partial t} = -c {\partial u \over \partial x}$$
+
+Discretization:
+1. Leapfrog scheme $\rightarrow$ Courant-Friedrichs-Lewy criterion
+2. Matsuno scheme $\rightarrow$ a dissipative scheme is added
+
+##### Non-linear
+
+$${\partial u_j \over \partial t} = -u {\partial u \over \partial x}$$
+
+**Aliasing**: $k_{max} = {\pi \over \Delta x}$, waves with $k_u > k_{max}$ will be misrepresented as longer waves $\rightarrow$ **non-linear instability**: creation of higher wavenumbers
+
+#### Conservation
+
+The aliasing problem show the necessity of having numerical models that reflect required conservation laws (e.g. mass, energy).
+
+##### Total energy
+
+Is conserved for homogeneous flow with no topography.
