@@ -251,7 +251,7 @@ Poincar&#233; modes
 
 1. (Vertical component of) **vorticity**: $\zeta = {\partial v \over \partial x} - {\partial u \over \partial y}$ $\leftarrow$ 3D vorticity $= \nabla \times \mathbf{v}$
     1. **Barotropic equation**: ${\partial \zeta \over \partial t} = -u {\partial \zeta \over \partial x} -v {\partial \zeta \over \partial y} -\beta v$
-    2. **Potential vorticity**: ${d \over dt} \left( \zeta + f \right) = 0$
+    2. **Potential vorticity**: ${d \over dt} \left( \zeta + f \right) = 0$ $\leftarrow$ $f = $ planetary vorticity
 2. **Divergence**: $D = {\partial u \over \partial x} + {\partial v \over \partial y}$ $\leftarrow$ horizontal divergence: $D = \nabla \cdot \mathbf{v}$
 3. **Stream function**: $\psi$ $\leftarrow$ Helmoltz theorem: $\mathbf{v} = \mathbf{k} \times \nabla \psi + \nabla \chi$
     1. $u = -{\partial \psi \over \partial y}$
@@ -278,7 +278,7 @@ A layered atmosphere is considered.
     1. Absorption: $dI = -Ik \rho dz$ $\rightarrow$ $\tau = {I \over I_0} = e^{-\chi}$
         1. Optical depth: $\chi = \int k \rho dz$
         2. Fractional trasmission coefficient: $\tau$
-    2. Emission: $dI = B(T)k \rho dz$ $\rightarrow$ Stefan-Boltzmann law: $\pi B(T) = \epsilon \sigma T^4$ ($\epsilon$: emissivity)
+    2. Emission (Kirkhoff's law): $dI = B(T)k \rho dz$ $\rightarrow$ Stefan-Boltzmann law: $\pi B(T) = \epsilon \sigma T^4$ ($\epsilon$: emissivity)
 2. Schwartzchild's equation (fluxes): ${1 \over \rho} {dI \over dz} = -k (I-B(T))$
 3. Heating rate: ${\partial T \over \partial t} = - {1 \over \rho C_p} {\partial \over \partial z} \left( F^{\uparrow} - F^{\downarrow} \right)$
 
@@ -286,15 +286,31 @@ A layered atmosphere is considered.
 
 ### Moisture
 
-#### Quantities
+Moisture is conserved.
 
-1. Mixing ratio:
-2. Specific humidity:
-3. Relative humidity:
+1. Mixing ratio: $q = {\rho_w \over \rho}$
+2. Specific humidity: ${\rho_w \over \rho + \rho_w}$
+3. Relative humidity: ${r = {q \over q_s}}$ where $q_s =$ saturated mixing ratio
+
+#### Equation of moisture
+
+$${\partial ( \rho q) \over \partial t} + \nabla \cdot (\rho q \vec{\nu}) + {\partial \over \partial z} (\rho qw) = M + \rho E$$
+
+#### Moist thermodynamics
+
+Considering adiabatic processes only: $q \approx 0.622 {e \over p}$ where water vapor partial pressure $e = \rho_w R_w T$
 
 #### Moist adiabatic lapse rate
 
-#### Precipitation and clouds
+$${dT \over dz} = -{g \over c_P} - {L \over c_P} {dq_s \over dz}$$
+
+#### Precipitation
+
+Rain occurs when air is supersaturated with vapor: $q > q_s$
+
+#### Clouds
+
+
 
 ### Surface processes
 
@@ -364,3 +380,76 @@ The aliasing problem show the necessity of having numerical models that reflect 
 ##### Total energy
 
 Is conserved for homogeneous flow with no topography.
+
+##### Arakawa Jacobian
+
+A numerical Jacobian that conserves:
+
+1. Energy
+2. Enstrophy: $\zeta^2$
+
+$$J_A = {1 \over 3} \left(J^{++} + J^{\times + } + J^{+ \times} \right)$$
+
+#### Gravity waves
+
+1. ${\partial u \over \partial t} = -g {\partial H \over \partial x}$
+2. ${\partial H \over \partial t} = -H_0 {\partial u \over \partial x}$
+
+#### Grids
+
+1. 1D
+    1. Staggered grid
+2. 2D
+    1. Arakawa grids
+
+##### Dispertion properties
+
+### Spectral methods
+
+Interesting properties:
+
+1. Derivarive $\rightarrow$ multiplication
+2. Exact derivative (with truncation limit)
+3. No aliasing
+4. Minimum resolvable scale = smallest wavelength in truncation
+
+#### Fourier series
+
+##### Interaction coefficients $c_{jkn}$
+
+$${du_k \over dt} = - \sum_{j,n} iku_j(t)u_k(t)c_{kjn}$$
+
+#### Gibbs phenomenon
+
+Ringing around sharp transitions.
+
+#### On the sphere
+
+1. ${\partial \mathbf{V} \over \partial t} + (\mathbf{V} \cdot \nabla) \mathbf{V} = -f \mathbf{k} \times \mathbf{V} - \nabla \Phi$
+2. ${\partial \Phi \over \partial t}  + (\mathbf{V} \cdot \nabla) \Phi = - \Phi \nabla \cdot \mathbf{V}$
+
+##### Sperical harmonics
+
+##### Truncation
+
+##### Gaussian grids
+
+##### Fast Fourier Transform (FFT)
+
+##### Lagrangian methods
+
+To fix Gibbs phenomena.
+
+##### Semi-lagrangian methods
+
+## Radiative forcing
+
+**OLR**: Observed Longwave outgoing Radiative flux $\sigma T^4 = OLR_{mean}$
+
+### Two-layer atmosphere
+
+### Three-layer atmosphere
+
+### Convection
+
+Radiative convection equilibrium
