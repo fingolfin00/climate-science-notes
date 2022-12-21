@@ -245,8 +245,105 @@ Hypothesis is supported for the following periods:
 | 240 - 35 Ma: Mesozoic up to Eocene                       | Greenhouse| No               |
 | 35 Ma - now: Eocene up to Holocene                       | Icehouse  | Alpine-Himalayan |
 
+An unusually large amount of high topography exists at the present $\rightarrow$ unusually strong weathering rate
+
 ## Cretaceous (145 - 66 Ma) greenhouse
 
+1. Peak: 94 Ma $\rightarrow$ Cenomanian-Turonian boundary (CTB)
+2. High sea level: > 80-100 m than present level
+3. Tropical seaway from Pacific to Atlantic to Indian oceans via Mediterranean
+4. Climate Leaf Analysis Multivariate Program (CLAMP)
+5. Palms at high latitudes and dinosaurs in northern Asia
+6. Presence of large deposits of coal and lignite
+7. Global mean temparature: up to 20-30 $^{\circ}C$
+8. Pangaea broken up
+9. Lot of shallow epicontinental seas
 
+![Cretaceous global mean temperature](pictures/climate-change-in-the-geological-past/cretaceous-temp.png "Cretaceous global mean temperature")
 
-## Cenozoic (66 Ma - present)
+### Cretaceous oceanic anoxic events (OAEs)
+
+Increased volcanism $\rightarrow$ $CO_2$ release and greenhouse effect $\rigtharrow$ more weathering and nutrient influx in water, sea level rise and more phytoplankton $\rightarrow$ more organic productivity $\rightarrow$ oxygen depletion $\rightarrow$ more carbon burial: **black shale** and **gas hydrates** formation
+
+### Eustatic (global) seal level change
+
+Reasons for higher seal level in mid-Cretaceous and approximate contribution
+
+1. High stand
+    1. No ice sheets &#126; 65 m
+    2. Thermal expansion &#126; 7 m
+2. Fast spreading rate of ocean ridges $\rightarrow$ bigger volume of oceanic crust rocks &#126; 10-100 m
+3. Less continental collisions $\rightarrow$ smaller "roots" in mantle &#126; 10 m
+4. Less deep sea fan (delta) sedimentation &#126; 10 m
+
+### Cretacean-Paleogene boundary (KPB)
+
+Reference layer: **El Kes/Elles** in Tunisia $\rightarrow$ red layer
+
+#### Impact theory
+
+1. Luis and Walter Alvarez found evidence
+2. End of Mesozoic: **Cretacean-Paleogene boundary** (KPB)
+    1. Iridium anomaly
+    2. Major extinction events
+    3. Lamellae in crystal lattices (quartz) $\leftarrow$ mechanical shock
+    4. Yucatan impact Chicxulub crater candidate (discovered later)
+
+##### Impact of ...impacts on climate
+
+1. Minutes: warming
+2. Days - years: cooling $\leftarrow$ acid rains
+3. Decades - centuries: warming $\leftarrow$ higher $CO_2$
+4. Geological timescales: little impact
+
+#### Deccan traps
+
+1. Large volcanic province in western India: basaltic lava flooding up to 2 km thick &#126; 67-62 Ma $\rightarrow$ volcanic **mantle plume** $\rightarrow$ Reunion hotspot: chain of volcanic centers getting younger as travelling south
+2. Foraminifera evolutionary trends (paleogeological aspect):
+    1. Larger and more specialized species go extinct
+    2. Small and cosmopolitan species survive
+    3. Adaptive small new species thrive
+
+## Cenozoic (66 Ma - now)
+
+### Proxies
+
+1. $\delta ^{18}O$: proportion of stable isotopes of oxygen $^{16}O$ and $^{18}O$ $\rightarrow$ $\Delta \delta ^{18}O_{ocean} \propto - \Delta T$ 
+    1. $^{16}O$ preferentially evaporates
+    2. $^{18}O$ preferentially precipitates (rain)
+2. $\delta ^{13}C$: proportion of stable isotopes of carbon $^{12}C$ and $^{13}C$ $\rightarrow$ $\Delta \delta ^{13}C_{ocean} \propto \Delta T$
+    1. Plant $CO_2$ enriched in $^{12}C$
+    2. Volcanic $CO_2$ enriched in $^{13}C$
+3. $Mg$/$Ca$ ratio in benthic foraminifera deposits: more $Mg$ substitutes $Ca$ in rocks if warmer temperatures
+
+![Cenozoic temperature](pictures/climate-change-in-the-geological-past/cenozoic-temp.png "Cenozoic temperature")
+
+### Cooling events
+
+1. Eocene-Oligocene transition (EOT): dramatic cooling event $\leftarrow$ beech disappears from Antarctica, Grande Coupure in Europe and Asia $\leftarrow$ closure of Turgay strait
+
+### Hyperthermals
+
+Rapid onset warming events associated with deep-ocean acidification, carbonate dissolution and foraminifera species extinction $\leftarrow$ huge release of greenhous gasses
+
+1. Paleocene-Eocen thermal maximum (PETM) $\leftarrow$ due to volcanism and uplift associated with the North Atlantic Igneous province
+
+### Middle Eocene climate optimum (MECO) (40 Ma)
+
+### Miocene climate optimum (around 14-17 Ma)
+
+1. 3-4 $^{\circ}C$ warmer than present
+    1. Warmer and wetter Antarctica
+2. Due to generation of Columbia River igneous province
+
+#### Monterey hypothesis
+
+Positive $\delta ^{13}C$ excursion $\leftarrow$ massive organic carbon burial
+
+### Gateway hypothesis
+
+Opening or closing of ocean gateways $\rightarrow$ onset of both southern and northern glaciation during the last 50 My?
+
+1. Drake passage opening $\rightarrow$ doesn't seem to have altered Antarctica glaciation
+2. Panama hysthmus formation $\rightarrow$ enhanced Gulf stream and therefore moved heat to north Atlantic and removed heat from American landmass $\leftarrow$ in contradiction with climate models
+3. The Gomphotherium landbridge formation $\rightarrow$ Terminal Tethyan Event (TTE) $\rightarrow$ had effect on biota but not on climate
