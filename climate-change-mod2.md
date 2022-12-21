@@ -263,7 +263,7 @@ An unusually large amount of high topography exists at the present $\rightarrow$
 
 ### Cretaceous oceanic anoxic events (OAEs)
 
-Increased volcanism $\rightarrow$ $CO_2$ release and greenhouse effect $\rigtharrow$ more weathering and nutrient influx in water, sea level rise and more phytoplankton $\rightarrow$ more organic productivity $\rightarrow$ oxygen depletion $\rightarrow$ more carbon burial: **black shale** and **gas hydrates** formation
+Increased volcanism $\rightarrow$ $CO_2$ release and greenhouse effect $\rightarrow$ more weathering and nutrient influx in water, sea level rise and more phytoplankton $\rightarrow$ more organic productivity $\rightarrow$ oxygen depletion $\rightarrow$ more carbon burial: **black shale** and **gas hydrates** formation
 
 ### Eustatic (global) seal level change
 
