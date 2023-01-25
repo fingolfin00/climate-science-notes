@@ -35,6 +35,9 @@ Modern view (Tor **Bergeron**) $\rightarrow$ 3 cells:
 2. **Farrel**, indirect $\rightarrow$ rectified effect, a statistical remnant
 3. Polar (direct, weaker)
 
+![Global circulation](pictures/climate-models/earth-global-circulation.png)
+[Wikipedia](https://en.wikipedia.org/wiki/Trade_winds)
+
 ### Winds
 
 #### Zonal winds
@@ -61,6 +64,8 @@ Lapse rate:
 1. Polar vs. mid-latitude vs. tropics
 2. Summer vs. winter
 3. Near surface inversion in polar winter
+
+![Lapse rate](pictures/climate-models/lapse-rate-seasons.png) (An Introduction to Three-Dimensional Climate Modeling, Washington and Parkinson, 2005)
 
 Average surface temperature:
 1. Continentality $\rightarrow$ mostly northern empisphere
@@ -97,6 +102,9 @@ $F_{RAD} - F_{SH} - F_{LH} - F_{G} - F_{H} = 0$
 4. $F_{G}$: heat flux from the subsurface layers
 5. $F_{H}$: heat flux due to phase change of water
 
+![Energy budget](pictures/climate-models/energy-budget.png)
+([MET](www.met.reading.ac.uk/~sgs02rpa/CONTED/cl-intro.html))
+
 ## Natural variability
 
 **Teleconnections**: anomalies or "covariation of remote regional climates either contemporaneously or at nonzero lag/lead times" (Vasubandhu Misra, in Regionalizing Global Climate Variations, 2020 via [ScienceDirect](https://www.sciencedirect.com/topics/earth-and-planetary-sciences/teleconnection)).  
@@ -117,6 +125,8 @@ Technique to separate the preferred modes of variation:
 1. Warm phase: lower pressure on Arctic, higher pressure on North Atlantic, stronger trades in the subtropics $\rightarrow$ warmer winters in midlatitudes and droughts on Mediterranean
 2. Cold phase: higher pressure on Arctic, lower pressure on North Atlantic, weaker trades in the subtropics $\rightarrow$ colder winters in midilatitued and stormy Mediterranean
 
+![Arctic Oscillation](pictures/climate-models/arctic-osc.jpg) ([wunderground.com](https://weatherwilly.blogspot.com/2014/10/arctic-oscillation-set-to-tank.html))
+
 ### North Atlantic Oscillation (NAO)
 
 Relative change in strength of Azores high and Icelandic (or subpolar) low. ([MET-UK](https://www.metoffice.gov.uk/weather/learn-about/weather/atmosphere/north-atlantic-oscillation))
@@ -124,13 +134,19 @@ Relative change in strength of Azores high and Icelandic (or subpolar) low. ([ME
 1. Negative NAO: weaker Azores-Iceland difference $\rightarrow$ more rain in Southern Europe
 2. Positive NAO: stronger Azores-Iceland difference $\rightarrow$ more rain in Norther Europe
 
+![North Atlantic Oscillation](pictures/climate-models/nao.png) ([polarpedia.eu](https://polarpedia.eu/en/north-atlantic-oscillation-nao/))
+
 ### Monsoon
 
 Seasonal phenomenon related to:
-1. ICTZ summer/winter variations
+1. ICTZ summer/winter variations due to ocean larger thermal capacity than land resulting in land heating up faster than ocean in summer
 2. ENSO
     1. El Ni&#241;o $\rightarrow$ dry monsoon
     2. La Ni&#241;a $\rightarrow$ wet monsoon
+
+![Global monsoons](pictures/climate-models/global-monsoons.png) ([CLIVAR](https://www.clivar.org/clivar-panels/monsoons))
+![January monsoons](pictures/climate-models/monsoon-wind-jan.jpg)
+![January monsoons](pictures/climate-models/monsoon-wind-jul.jpg)([ux1.eiu.edu](https://www.ux1.eiu.edu/~cfjps/1400/circulation.html))
 
 ## Fundamental equations
 
@@ -148,7 +164,9 @@ A number of forces act on a volume element on the rotating Earth's surface:
 1. Friction
 2. Gravity
 3. Pressure gradient
-4. Coriolis forces $\rightarrow$ due to Earth's rotation
+4. Inertial forces:
+    1. Coriolis force
+    2. Centripetal force
 
 ### Spherical coordinates
 
@@ -160,14 +178,21 @@ Expressed in spherical coordinates:
 1. $\lambda$: longitude
 2. $\phi$: latitude
 3. $r = a + z$: radial distance, $a =$ Earth's radius
+    1. ${\partial \over \partial r} = {\partial \over \partial z}$
+    2. $a \approx r$
 
-Velocity:
+#### Gradient
 
-1. $u = r \cos \phi {d \lambda \over dt}$
-2. $v = r {d \phi \over dt}$
+$$\nabla_{z,\phi,\lambda} = \left( {\partial \over \partial z}, {1 \over a} {\partial \over \partial \phi}, {1 \over a \cos \phi} {\partial \over \partial \lambda} \right)$$
+
+#### Velocity
+
+1. **zonal**: $u = r \cos \phi {d \lambda \over dt}$
+2. **medidional**: $v = r {d \phi \over dt}$
 3. $w = {dr \over dt}$
 
-Advective derivative:
+#### Advective derivative
+
 $${d \over dt} = {\partial \over \partial t} + {u \over a \cos \phi} {\partial \over \partial \lambda} + {v \over a} {\partial \over \partial \phi} + w {\partial \over \partial z}$$
 
 Equations are coupled and non-linear.
@@ -251,8 +276,8 @@ Poincar&#233; modes
 
 1. (Vertical component of) **vorticity**: $\zeta = {\partial v \over \partial x} - {\partial u \over \partial y}$ $\leftarrow$ 3D vorticity $= \nabla \times \mathbf{v}$
     1. **Barotropic equation**: ${\partial \zeta \over \partial t} = -u {\partial \zeta \over \partial x} -v {\partial \zeta \over \partial y} -\beta v$
-    2. **Potential vorticity**: ${d \over dt} \left( \zeta + f \right) = 0$ $\leftarrow$ $f = $ planetary vorticity
-2. **Divergence**: $D = {\partial u \over \partial x} + {\partial v \over \partial y}$ $\leftarrow$ horizontal divergence: $D = \nabla \cdot \mathbf{v}$
+    2. **Potential vorticity**: ${d \over dt} \left( \zeta + f \right) = 0$ $\leftarrow$ $f =$ planetary vorticity
+2. (Horizontal) **divergence**: $D = {\partial u \over \partial x} + {\partial v \over \partial y}$ $\leftarrow$ total divergence: $D = \nabla \cdot \mathbf{v}$
 3. **Stream function**: $\psi$ $\leftarrow$ Helmoltz theorem: $\mathbf{v} = \mathbf{k} \times \nabla \psi + \nabla \chi$
     1. $u = -{\partial \psi \over \partial y}$
     2. $v = {\partial \psi \over \partial x}$
